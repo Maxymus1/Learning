@@ -1,22 +1,55 @@
 
-//bash
+--------------//bash
 
-cd <carpeta>  (se mueve a la carpeta) 
+cd <carpeta>  (se mueve a la carpeta /.. carpeta anterior) 
 ls -la        (listas los archivos y carpetas)
 
 
 
-//github
+-------------//github
 
-copiar-clonar
+//copiar-clonar
 
 git clone <url> (copia lo que hay en git en url)
 
-guardar cambios
+//guardar cambios
 
 git add .
 git commit -m "<nombre del parche>"
 
-subir los cambios
+//subir los cambios
 
 git push origin master
+
+actualizar locar
+
+git pull origin master
+
+
+--------
+git status (chequear status)
+
+git log (chequear lista de commits, salir con :q)
+
+git remote add origin https://github.com/Maxymus1/Learning.git
+(añadir remoto con un alias "origin" de la url)
+
+
+------------
+//crear branch
+//siempre se crea en base a la branch en donde estas parado
+
+git checkout -b <nombre-de-branch>
+
+git checkout -b <nombre-de-branch> master (para siempre crear en master)
+
+//moverte branch
+
+git checkout <nombre-de-branch>
+
+
+
+
+
+//practisin
+https://learngitbranching.js.org/?locale=es_ES
