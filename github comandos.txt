@@ -23,7 +23,7 @@ git push origin master
 
 actualizar locar
 
-git pull origin master
+git pull origin master(o rama(esta entre ()))
 
 
 --------
