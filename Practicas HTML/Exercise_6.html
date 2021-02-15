@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header style="text-align: center;">
+        <h1>Sign up</h1>
+    </header>
+        <form style="text-align: center;"> 
+            <ul style="list-style-type: none;">
+                <li>
+                    <label>
+                        First Name 
+                        <input name="firstname" type="text" required/>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        Last Name 
+                        <input name="lastname" type="text" />
+                    </label>
+                </li>
+                <li>
+                    <label for="email">Email </label><input id="email" name="email" type="text" placeholder="email@example.com" required/>
+                </li>
+                <li>
+                    <label for="birthday">Birthday </label><input id="birthday" name="birthday" type="date" required/>
+                </li>
+                <li>
+                    <label for="sport">Sport </label>
+                    <select id="sport" name="Sport">
+                        <option value="none">Select Sport</option>
+                        <option value="nata">Natación</option>
+                        <option value="fut">Futbol</option>
+                        <option value="rug">Rugby</option> 
+                        <option value="otros">Otros</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="bio">Bio</label> <textarea id="bio" name="bio" cols="30" rows="5" > </textarea>
+                </li>
+                <li>
+                    <input type="submit" value="submit">
+                </li>
+                <li>
+                    <input type="reset" value="Reset">
+                </li>
+            </ul>
+        </form>
+</body>
+</html>

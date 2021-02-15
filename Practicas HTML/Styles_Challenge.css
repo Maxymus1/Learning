@@ -1,0 +1,43 @@
+
+body {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:black ;
+    
+}
+header {
+    text-align: center;
+    color: white;
+}
+nav{
+    background-color: green;
+}
+nav, footer {
+    background-color:springgreen;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    width: 80%;
+    padding: 0% 10% 0% 10%;
+    margin: 0% 10% 0% 10%;
+    border-radius: 20px;
+
+}
+
+
+section {
+    text-align: center;
+    background-color: wheat;
+    border-radius: 20px;
+
+}
+
+ul {
+    list-style: none;
+
+}
+li {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}

@@ -1,0 +1,22 @@
+
+//bash
+
+cd <carpeta>  (se mueve a la carpeta) 
+ls -la        (listas los archivos y carpetas)
+
+
+
+//github
+
+copiar-clonar
+
+git clone <url> (copia lo que hay en git en url)
+
+guardar cambios
+
+git add .
+git commit -m "<nombre del parche>"
+
+subir los cambios
+
+git push origin master
