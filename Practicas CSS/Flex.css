@@ -1,0 +1,38 @@
+html {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.conteinerHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.item-header {
+    margin-left: 20px;
+    width: 1000px;
+}
+
+.item-main {
+    flex-direction: column;
+    width: auto;
+    margin-left: 20px;
+}
+
+.opacity:hover {
+    opacity: 0.5;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    margin: 5px;
+}
