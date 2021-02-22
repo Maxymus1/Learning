@@ -1,0 +1,104 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.page-container {
+    padding: 0 15px;
+}
+
+/* HEADER */
+.header {
+    display: grid;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: 35% auto;
+    grid-template-areas: 
+        "showcase description"
+        ". contact";
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.vertical-center {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.showcase {
+    grid-area: showcase;
+
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.description {
+    grid-area: description;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    background-color: blanchedalmond;
+    color: brown;
+    border-radius: 15%;
+}
+
+
+/*Contenido General*/
+
+.conteiner-content {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.item {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.item .item-image {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.item-topbox--hover {
+    position: absolute;
+    top: -30%;
+    left: 0;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 30%;
+    opacity: .8;
+    padding: 7px 0 0 10px;
+    font-size: 17px;
+    font-weight: 900;
+    transition: top .3s ease;
+}
+
+.item:hover .item-topbox--hover {
+    top: 0;
+}

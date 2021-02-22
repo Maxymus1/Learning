@@ -1,10 +1,9 @@
-
-
 html {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     box-sizing: border-box;
 }
+
 body {
     margin: 0%;
 }
@@ -22,7 +21,7 @@ body {
     /*color: white;*/
     font-size: 12px;
     color: violet;
-    display: inline-block ;
+    display: inline-block;
     margin: 0;
     width: 20%;
     vertical-align: top;
@@ -31,12 +30,11 @@ body {
 
 .content {
     font-size: 14px;
-    display: inline-block ;
+    display: inline-block;
     margin: 0;
     width: 59%;
     height: 300px;
-    overflow: auto ;
-
+    overflow: auto;
 }
 
 section header {
@@ -57,7 +55,7 @@ section footer {
 .sidebar {
     /*background-color:magenta;*/
     font-size: 10px;
-    display: inline-block ;
+    display: inline-block;
     margin: 0;
     width: 20%;
     height: 300px;
@@ -68,7 +66,6 @@ section footer {
     /*background-color: magenta;*/
     text-align: center;
     font-size: 10px;
-
 }
 
 [class$="r"] {
@@ -79,5 +76,3 @@ section footer {
     background-color: blue;
     color: white;
 }
-
-
