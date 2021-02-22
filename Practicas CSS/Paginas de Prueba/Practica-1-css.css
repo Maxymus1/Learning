@@ -1,0 +1,96 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #141414;
+    color: #FEFEFE;
+}
+
+.cabecera {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    /*height: 70px;*/
+    background-color: transparent;
+}
+
+h1 {
+    padding: 5px;
+    margin: 0px 300px 0px 300px;
+    border-radius: 20px;
+    background-color: #102F55;
+    text-shadow: #E50914 2px 2px;
+}
+
+ul {
+    padding: 10px;
+    margin: 0;
+    background-color: #102F55;
+}
+
+.conteinerNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li {
+    padding: 10px 20px 10px 20px;
+    margin: 5px 50px 5px 50px;
+    list-style: none;
+    background-color: #E50914;
+    border-radius: 5px;
+    text-align: center;
+}
+
+li:hover {
+    background: #0B59B4;
+}
+
+.disBot {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.conteinerMain {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+section {
+    background-color: #102F55;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 5px;
+    flex-grow: 4;
+    order: 1;
+}
+
+section header h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.conteinerSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 500px;
+    overflow-y: hidden;
+}
+
+.conteinerSection:hover {
+    overflow-y: scroll;
+}
+
+aside {
+    order: 2;
+    height: 500px;
+    background-color: seagreen;
+}
